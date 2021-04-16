@@ -1,0 +1,18 @@
+header {
+  background-color: $color-background-header;
+  .container {
+    .navbar-top {
+      ul {
+        @include flex-end;
+        list-style: none;
+        li {
+          @include flex-center;
+          color: $color-text-navbar-top;
+          i {
+            color: $color-icon-navbar-top;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #101010;
+}
+header .container .navbar-top ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+header .container .navbar-top ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5b6d6d;
+}
+header .container .navbar-top ul li i {
+  color: #0292fb;
+}

@@ -3,4 +3,37 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family:  'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.blue {
+  color: $color-blue;
+}
+
+.white {
+  color: $color-white;
+}
+
+.pink {
+  color: $color-pink;
 }

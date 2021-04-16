@@ -1,15 +1,24 @@
 header {
-  background-color: $color-background-header;
+  background-color: $color-background-black;
   .container {
     .navbar-top {
       ul {
         @include flex-end;
-        list-style: none;
         li {
           @include flex-center;
           color: $color-text-navbar-top;
           i {
             color: $color-icon-navbar-top;
+          }
+        }
+      }
+    }
+    .navbar-menu {
+      ul {
+        @include flex-start;
+        li {
+          a {
+            color: $color-white;
           }
         }
       }

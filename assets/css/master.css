@@ -70,7 +70,7 @@ header {
   background-color: #101010;
 }
 header .container .navbar-top {
-  width: 92%;
+  width: 95%;
 }
 header .container .navbar-top ul {
   display: flex;
@@ -101,6 +101,27 @@ header .container .navbar-menu ul li a {
   color: #ffffff;
   padding-right: 4em;
   font-size: 14px;
+}
+
+main {
+  background-color: #e6e6e6;
+}
+main .jumbo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+main .jumbo .container .info {
+  padding-top: 90px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+main .jumbo .container .info img {
+  width: 20%;
+}
+main .jumbo .container .info .title {
+  font-size: 21px;
 }
 
 footer {

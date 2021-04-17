@@ -1,6 +1,21 @@
 main {
   background-color: $color-lightgrey;
   .jumbo {
-    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    .container {
+      .info {
+        padding-top: 90px;
+        @include flex-start;
+        flex-direction: column;
+        img {
+          width: 20%;
+        }
+        .title {
+          font-size: 21px;
+        }
+      }
+    }
   }
 }

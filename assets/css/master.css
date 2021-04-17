@@ -39,7 +39,7 @@ ul {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -48,17 +48,29 @@ ul {
 }
 
 .my-5 {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .px-5 {
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.py-5 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.pt-5 {
+  padding-top: 1em;
 }
 
 header {
   background-color: #101010;
+}
+header .container .navbar-top {
+  width: 92%;
 }
 header .container .navbar-top ul {
   display: flex;
@@ -70,17 +82,25 @@ header .container .navbar-top ul li {
   justify-content: center;
   align-items: center;
   color: #5b6d6d;
+  font-size: 13px;
 }
 header .container .navbar-top ul li i {
   color: #0292fb;
+  padding-right: 0.5em;
 }
 header .container .navbar-menu ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
+header .container .navbar-menu ul li img {
+  width: 75%;
+  padding-right: 1em;
+}
 header .container .navbar-menu ul li a {
   color: #ffffff;
+  padding-right: 4em;
+  font-size: 14px;
 }
 
 footer {

@@ -2,13 +2,16 @@ header {
   background-color: $color-background-black;
   .container {
     .navbar-top {
+      width: 92%;
       ul {
         @include flex-end;
         li {
           @include flex-center;
           color: $color-text-navbar-top;
+          font-size: 13px;
           i {
             color: $color-icon-navbar-top;
+            padding-right: 0.5em;
           }
         }
       }
@@ -17,8 +20,14 @@ header {
       ul {
         @include flex-start;
         li {
+          img {
+            width: 75%;
+            padding-right: 1em;
+          }
           a {
             color: $color-white;
+            padding-right: 4em;
+            font-size: 14px;
           }
         }
       }

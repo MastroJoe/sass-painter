@@ -18,4 +18,20 @@ main {
       }
     }
   }
+  .container {
+    h1 {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+    .container-cards {
+      @include flex-center-space-between;
+      .cards {
+        background-color: #ffffff;
+        img {
+          width: 420px;
+        }
+      }
+    }
+  }
 }

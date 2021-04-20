@@ -123,6 +123,22 @@ main .jumbo .container .info img {
 main .jumbo .container .info .title {
   font-size: 21px;
 }
+main .container h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+main .container .container-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .container-cards .cards {
+  background-color: #ffffff;
+}
+main .container .container-cards .cards img {
+  width: 420px;
+}
 
 footer {
   background-color: #101010;

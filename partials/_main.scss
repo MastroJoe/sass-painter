@@ -1,5 +1,6 @@
 main {
   background-color: $color-lightgrey;
+  // sezione jumbo
   .jumbo {
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,6 +19,7 @@ main {
       }
     }
   }
+  // sezione 3 cards
   .container {
     h1 {
       text-align: center;
@@ -32,6 +34,14 @@ main {
           width: 420px;
         }
       }
+    }
+  }
+  // sezione card-panel
+  .container {
+    .container-card-panel {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 80px;
     }
   }
 }

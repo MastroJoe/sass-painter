@@ -139,6 +139,11 @@ main .container .container-cards .cards {
 main .container .container-cards .cards img {
   width: 420px;
 }
+main .container .container-card-panel {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
 
 footer {
   background-color: #101010;

@@ -188,6 +188,17 @@ main .container .container-cards .cards {
 main .container .container-cards .cards img {
   width: 420px;
 }
+main .container .container-cards .cards h5 {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+main .container .container-cards .cards p {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+main .container .container-cards .cards a {
+  padding: 1em 1em;
+}
 main .container .container-card-panel {
   display: flex;
   flex-wrap: wrap;

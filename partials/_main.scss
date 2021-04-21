@@ -58,4 +58,39 @@ main {
       }
     }
   }
+  // sezione links
+  .container {
+    .container-links {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .links {
+        li {
+          h5 {
+            padding-bottom: 1em;
+            a {
+              color: $color-darkgrey ;
+            }
+          }
+          p {
+            padding-bottom: 1em;
+            a {
+              color: $color-text-navbar-top;
+            }
+          }
+        }
+      }
+    }
+  }
+  // sezione icone social
+  .container {
+    .container-icons {
+      display: flex;
+      justify-content: flex-end;
+      i {
+        font-size: 35px;
+        padding-left: 10px;
+      }
+    }
+  }
 }

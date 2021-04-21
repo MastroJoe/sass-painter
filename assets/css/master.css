@@ -64,6 +64,11 @@ ul {
   margin-bottom: 1em;
 }
 
+.my-10 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 .px-5 {
   padding-left: 1em;
   padding-right: 1em;
@@ -79,8 +84,34 @@ ul {
   padding-bottom: 1em;
 }
 
+.py-10 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.py-20 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
 .pt-5 {
   padding-top: 1em;
+}
+
+.pt-10 {
+  padding-top: 2em;
+}
+
+.pt-20 {
+  padding-top: 3em;
+}
+
+.pl-5 {
+  padding-left: 1em;
+}
+
+.pl-10 {
+  padding-left: 2em;
 }
 
 header {
@@ -174,7 +205,50 @@ main .container .container-card-panel .panel img {
   max-width: 100%;
   max-height: 100%;
 }
+main .container .container-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .container-links .links li h5 {
+  padding-bottom: 1em;
+}
+main .container .container-links .links li h5 a {
+  color: #2c2c2c;
+}
+main .container .container-links .links li p {
+  padding-bottom: 1em;
+}
+main .container .container-links .links li p a {
+  color: #5b6d6d;
+}
+main .container .container-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+main .container .container-icons i {
+  font-size: 35px;
+  padding-left: 10px;
+}
 
 footer {
   background-color: #101010;
+}
+footer .container .container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .container-footer .container-left img {
+  padding-right: 1em;
+}
+footer .container .container-footer .container-right ul {
+  display: flex;
+  flex-direction: row;
+}
+footer .container .container-footer .container-right ul li {
+  padding-left: 1em;
+}
+footer .container .container-footer .container-right ul li a {
+  color: #5b6d6d;
 }
